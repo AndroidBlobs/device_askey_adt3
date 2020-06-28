@@ -1,0 +1,313 @@
+
+# Audio
+vendor/lib/soundfx/libaudiopreprocessing.so
+
+# Audio-Hardware
+vendor/lib/hw/audio.primary.amlogic.so
+vendor/lib/hw/audio.primary.default.so
+vendor/lib/hw/audio.r_submix.default.so
+vendor/lib/hw/audio.usb.default.so
+
+# Bluetooth
+vendor/bin/hw/android.hardware.bluetooth@1.0-service
+vendor/etc/bluetooth/4343.hcd
+vendor/etc/bluetooth/auto_pairing.conf
+vendor/etc/bluetooth/BCM20702.hcd
+vendor/etc/bluetooth/BCM20703A2.hcd
+vendor/etc/bluetooth/BCM2076.hcd
+vendor/etc/bluetooth/bcm43241b4.hcd
+vendor/etc/bluetooth/BCM4330.hcd
+vendor/etc/bluetooth/bcm43341b0.hcd
+vendor/etc/bluetooth/bcm4335c0.hcd
+vendor/etc/bluetooth/BCM4345C0.hcd
+vendor/etc/bluetooth/BCM4345C5.hcd
+vendor/etc/bluetooth/BCM4350.hcd
+vendor/etc/bluetooth/BCM4354.hcd
+vendor/etc/bluetooth/bcm43569a2.hcd
+vendor/etc/bluetooth/BCM4359C0.hcd
+vendor/etc/bluetooth/BCM4362A1.hcd
+vendor/etc/bluetooth/blacklist.conf
+vendor/etc/init/android.hardware.bluetooth@1.0-service.rc
+vendor/etc/init/bluetooth.rc
+vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so
+vendor/lib/libbluetooth_audio_session.so
+vendor/lib/libbt-vendor.so
+
+# Camera
+vendor/lib/hw/camera.amlogic.so
+
+# DRM
+vendor/lib/liboemcrypto.so
+
+# DRM-HDCP
+vendor/bin/hdcp_tx22
+
+# DRM-Widevine
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
+vendor/lib/libwvhidl.so
+vendor/lib/mediadrm/libdrmclearkeyplugin.so
+vendor/lib/mediadrm/libplayreadymediadrmplugin.so
+
+# Display-Hardware
+vendor/lib/hw/android.hardware.graphics.mapper@3.0-impl-arm.so
+vendor/lib/hw/gralloc.default.so
+vendor/lib/hw/hwcomposer.amlogic.so
+vendor/lib/hw/memtrack.amlogic.so
+
+# Dolby
+vendor/etc/audio_policy_configuration_dolby_ms12.xml
+
+# Firmware
+vendor/etc/firmware/firmware.le
+
+# GPS
+
+# GPS-Hardware
+
+# Gatekeeper
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service
+vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
+vendor/lib/hw/gatekeeper.amlogic.so
+
+# Graphics
+vendor/lib/egl/libGLES_mali.so
+vendor/lib/hw/vulkan.amlogic.so
+
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@4.0-service.amlogic
+vendor/etc/init/android.hardware.keymaster@4.0-service.amlogic.rc
+vendor/lib/libkeymaster4.so
+vendor/lib/libkeymaster4support.so
+vendor/lib/libkeymaster_messages.so
+vendor/lib/libkeymaster_portable.so
+vendor/lib/libpuresoftkeymasterdevice.so
+
+# Keystore
+vendor/lib/libkeystore-engine-wifi-hidl.so
+vendor/lib/libkeystore-wifi-hidl.so
+
+# Listen
+
+# Media
+vendor/lib/libstagefright_soft_mpeg2dec.so
+
+# Media-Hardware
+vendor/lib/libOmxCore.so
+vendor/lib/libstagefrighthw.so
+
+# Perf
+
+# Postprocessing
+
+# Power-Hardware
+vendor/bin/hw/android.hardware.power@1.0-service
+vendor/etc/init/android.hardware.power@1.0-service.rc
+vendor/lib/hw/android.hardware.power@1.0-impl.so
+vendor/lib/hw/power.amlogic.so
+
+# QMI
+
+# Radio
+
+# Sensors
+
+# Thermal
+vendor/bin/hw/android.hardware.thermal@2.0-service.droidlogic
+vendor/etc/init/android.hardware.thermal@2.0-service.droidlogic.rc
+vendor/etc/thermal_info_config.json
+vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.droidlogic.xml
+
+# Time
+
+# WiFi
+
+# rootdir
+vendor/bin/remotecfg
+vendor/bin/tee_preload_fw
+vendor/etc/fstab.amlogic
+vendor/recovery-from-boot.p
+
+# Misc
+vendor/bin/applypatch
+vendor/bin/boringssl_self_test32
+vendor/bin/chattr
+vendor/bin/devmem
+vendor/bin/dumpsys
+vendor/bin/esplayer
+vendor/bin/fsync
+vendor/bin/getconf
+vendor/bin/hdmicecd
+vendor/bin/hw/android.hardware.audio.service
+vendor/bin/hw/android.hardware.tv.cec@1.0-service
+vendor/bin/i2cdetect
+vendor/bin/i2cdump
+vendor/bin/i2cget
+vendor/bin/i2cset
+vendor/bin/iconv
+vendor/bin/install
+vendor/bin/lsattr
+vendor/bin/nc
+vendor/bin/netcat
+vendor/bin/nproc
+vendor/bin/nsenter
+vendor/bin/oemcrypto_test_aml
+vendor/bin/rc_server
+vendor/bin/readelf
+vendor/bin/secmem_test
+vendor/bin/systemcontrol
+vendor/bin/tee-supplicant
+vendor/bin/test
+vendor/bin/unlink
+vendor/bin/unshare
+vendor/bin/uuidgen
+vendor/bin/watch
+vendor/etc/drm/playready/bgroupcert.dat
+vendor/etc/drm/playready/zgpriv.dat
+vendor/etc/drm/playready/zgpriv_protected.dat
+vendor/etc/hearing_aid_audio_policy_configuration.xml
+vendor/etc/init/android.hardware.audio.service.rc
+vendor/etc/init/android.hardware.tv.cec@1.0-service.rc
+vendor/etc/init/boringssl_self_test.rc
+vendor/etc/init/dvb.rc
+vendor/etc/init/fs.rc
+vendor/etc/init/hdmicecd.rc
+vendor/etc/init/irblaster1.rc
+vendor/etc/init/rc_server.rc
+vendor/etc/init/sysfs_permissions.rc
+vendor/etc/init/systemcontrol.rc
+vendor/etc/init/tee-supplicant.rc
+vendor/etc/init/vendor_flash_recovery.rc
+vendor/etc/lowmemorykiller.txt
+vendor/etc/lowmemorykiller_2G.txt
+vendor/etc/lowmemorykiller_512M.txt
+vendor/etc/mesondisplay.cfg
+vendor/etc/msd_audio_policy_configuration.xml
+vendor/etc/permissions/droidlogic.software.core.xml
+vendor/etc/permissions/droidlogic.software.netflix.xml
+vendor/etc/permissions/privapp-permissions-amlogic.xml
+vendor/etc/remote.cfg
+vendor/etc/remote.tab1
+vendor/etc/remote.tab2
+vendor/etc/remote.tab3
+vendor/etc/surround_sound_configuration_5_0.xml
+vendor/etc/tvconfig/pq/pq.db
+vendor/etc/tvconfig/pq/pq_default.ini
+-vendor/framework/droidlogic.jar
+vendor/lib/android.hardware.audio.common-util.so
+vendor/lib/android.hardware.audio.common@2.0-util.so
+vendor/lib/android.hardware.audio.common@4.0-util.so
+vendor/lib/android.hardware.audio.common@5.0-util.so
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib/android.hardware.camera.provider@2.5-legacy.so
+vendor/lib/android.hardware.graphics.composer@2.1-resources.so
+vendor/lib/android.hardware.graphics.composer@2.2-resources.so
+vendor/lib/firmware/video/h264_enc.bin
+vendor/lib/firmware/video/video_ucode.bin
+vendor/lib/hw/android.hardware.tv.cec@1.0-impl.so
+vendor/lib/hw/hdmi_cec.amlogic.so
+vendor/lib/hw/tv_input.default.so
+vendor/lib/libamadec.so
+vendor/lib/libamaudioutils.so
+vendor/lib/libamavutils.so
+vendor/lib/libamgralloc_ext.so
+vendor/lib/libamlaudiorc.so
+vendor/lib/libam_adp.so
+vendor/lib/libavservices_minijail.so
+vendor/lib/libdatachunkqueue_alt.so
+vendor/lib/libdisplaysetting.so
+vendor/lib/libdroidaudiospdif.so
+vendor/lib/libfaad.so
+vendor/lib/libfbc.so
+vendor/lib/libfpscalculator_alt.so
+vendor/lib/libge2d.so
+vendor/lib/libhdmicec.so
+vendor/lib/libhdmicec_jni.so
+vendor/lib/libhidltransport.so
+vendor/lib/libHwAudio_dcvdec.so
+vendor/lib/libHwAudio_dtshd.so
+vendor/lib/libhwbinder.so
+vendor/lib/libhwminijail.so
+vendor/lib/libicuuc_vendor.so
+vendor/lib/libispaaa.so
+vendor/lib/libjniuevent.so
+vendor/lib/libmad.so
+vendor/lib/libms12api.so
+vendor/lib/libnano.so
+vendor/lib/libOmxAudio.so
+vendor/lib/libOmxBase.so
+vendor/lib/libOmxVideo.so
+vendor/lib/libomx_av_core_alt.so
+vendor/lib/libomx_clock_utils_alt.so
+vendor/lib/libomx_framework_alt.so
+vendor/lib/libomx_timed_task_queue_alt.so
+vendor/lib/libomx_worker_peer_alt.so
+vendor/lib/libopus.so
+vendor/lib/libplayready.so
+vendor/lib/libpqcontrol.so
+vendor/lib/libprotobuf-cpp-full-3.9.1.so
+vendor/lib/libprotobuf-cpp-lite-3.9.1.so
+vendor/lib/libremotecontrolserver.so
+vendor/lib/libremotecontrol_jni.so
+vendor/lib/libsecmem.so
+vendor/lib/libsoft_attestation_cert.so
+vendor/lib/libstagefright_amrnb_common.so
+vendor/lib/libstagefright_enc_common.so
+vendor/lib/libstagefright_flacdec.so
+vendor/lib/libstagefright_softomx.so
+vendor/lib/libstagefright_softomx_plugin.so
+vendor/lib/libstagefright_soft_aacdec.so
+vendor/lib/libstagefright_soft_aacenc.so
+vendor/lib/libstagefright_soft_amrdec.so
+vendor/lib/libstagefright_soft_amrnbenc.so
+vendor/lib/libstagefright_soft_amrwbenc.so
+vendor/lib/libstagefright_soft_avcdec.so
+vendor/lib/libstagefright_soft_avcenc.so
+vendor/lib/libstagefright_soft_flacdec.so
+vendor/lib/libstagefright_soft_flacenc.so
+vendor/lib/libstagefright_soft_g711dec.so
+vendor/lib/libstagefright_soft_gsmdec.so
+vendor/lib/libstagefright_soft_hevcdec.so
+vendor/lib/libstagefright_soft_mp3dec.so
+vendor/lib/libstagefright_soft_mpeg4dec.so
+vendor/lib/libstagefright_soft_mpeg4enc.so
+vendor/lib/libstagefright_soft_opusdec.so
+vendor/lib/libstagefright_soft_rawdec.so
+vendor/lib/libstagefright_soft_vorbisdec.so
+vendor/lib/libstagefright_soft_vpxdec.so
+vendor/lib/libstagefright_soft_vpxenc.so
+vendor/lib/libsystemcontrolservice.so
+vendor/lib/libteec.so
+vendor/lib/libtee_load_video_fw.so
+vendor/lib/libthreadworker_alt.so
+vendor/lib/libtvbinder.so
+vendor/lib/libvideo_dec.so
+vendor/lib/libvorbisidec.so
+vendor/lib/libvpx.so
+vendor/lib/libwifi-hal-common-ext.so
+vendor/lib/libwifi-hal.so
+vendor/lib/optee.ko
+vendor/lib/optee_armtz.ko
+vendor/lib/soundfx/libavl.so
+vendor/lib/soundfx/libbalance.so
+vendor/lib/soundfx/libhpeqwrapper.so
+vendor/lib/soundfx/libsrswrapper.so
+vendor/lib/soundfx/libtreblebasswrapper.so
+vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b0002a5d5c51b.ta
+vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta
+vendor/lib/teetz/8efb1e1c-37e5-4326-a5d68c33726c7d57.ta
+vendor/lib/teetz/9a04f079-9840-4286-ab92e65be0885f95.ta
+vendor/lib/teetz/e043cde0-61d0-11e5-9c260002a5d5c51b.ta
+vendor/lib/vendor.amlogic.hardware.droidvold@1.0.so
+vendor/lib/vendor.amlogic.hardware.hdmicec@1.0.so
+vendor/lib/vendor.amlogic.hardware.remotecontrol@1.0.so
+vendor/lib/vendor.amlogic.hardware.systemcontrol@1.0.so
+vendor/lib/vendor.amlogic.hardware.systemcontrol@1.1.so
+vendor/lib/vendor.amlogic.hardware.tvserver@1.0.so
+vendor/odm
+-vendor/priv-app/droidlogic-res/droidlogic-res.apk
+vendor/priv-app/droidlogic-res/lib/arm/libjniuevent.so
+vendor/priv-app/droidlogic-res/lib/arm/libremotecontrol_jni.so
